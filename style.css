@@ -4,7 +4,7 @@
 
 }
 body {
-    background-color: darkgray;
+    background-color: rgb(74, 67, 173);
 }
 main {
     background-color: white;
@@ -12,4 +12,24 @@ main {
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+}
+h1 {
+    font-size: 2em;
+    color: rgb(19, 19, 112);
+}
+h2 {
+    font-size: 1.5em;
+    color: rgb(9, 9, 112);
+}
+img.lado {
+    float: right;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(28, 10, 112)
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
